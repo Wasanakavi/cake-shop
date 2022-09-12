@@ -1,0 +1,142 @@
+body{
+	margin:0;
+	
+}
+.topbar{
+	background-color:white;
+	color:black;
+	position:relative;
+	height:5vh;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	
+}
+
+
+#topnav {
+  background-color: rgb(130, 181, 226);
+  overflow: hidden
+  
+}
+#topnav a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+
+font-size:17px}
+#topnav a#active {
+  background-color:blue ;
+  color: white;
+}
+#topnav #a:hover {
+  background-color:blue;
+  color: black;
+}
+#goorder{
+	margin-right:20px;
+    float:right;
+	height:5vh;
+	color:blue;
+	font-size:20px;
+	font-weight:bold;
+	background-color:pitch;
+	
+}
+
+.main{
+	
+	color:black;
+	position:relative;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	background-image:url("cup cake 4.png");
+	
+}
+ul{
+	list-style-type:none;
+}
+p{
+	font-weight:bold;
+}
+
+.mcol1{
+	
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+.im1{
+	height:250px;
+	width:250px;
+}
+.mcol2{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+.mcol3{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+
+.mcol4{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+.footer{
+	background-color: rgb(130, 181, 226);
+	color:white;
+	position:relative;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	
+}
+.col1{
+	
+	margin-top:20px;
+	float:left;
+	width:10%;
+}
+.col2{
+	margin-top:20px;
+	float:left;
+	width:10%;
+}
+
+.col3{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+
+.col4{
+	margin-top:2px;
+	float:left;
+	width:25%;
+}
+a{
+	text-decoration:none;
+	color:white;
+}

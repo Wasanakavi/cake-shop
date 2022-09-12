@@ -1,0 +1,206 @@
+body{
+	margin:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.full-screen-container {
+	background-image:url("login 8.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: hsla(201, 100%, 6%, 0.6);
+  padding: 50px 30px;
+  min-width: 400px;
+  width: 50%;
+  max-width: 600px;
+}
+
+.login-title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background-color: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsl(201, 100%, 6%);
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.input-group input:focus {
+  border: 1px solid hsl(201, 100%, 50%);
+}
+
+.login-button {
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  background: hsla(201, 100%, 50%, 0.1);
+  border: 1px solid hsl(201, 100%, 50%);
+  outline: none;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: hsla(201, 100%, 50%, 0.3);
+}
+
+.login-button:focus {
+  background-color: hsla(201, 100%, 50%, 0.5);
+}
+
+.topbar{
+	
+	position:relative;
+	height:5vh;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	
+	
+}
+
+
+#topnav {
+  background-color: rgb(130, 181, 226);
+  overflow: hidden
+  
+}
+#topnav a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+
+font-size:17px}
+#topnav a#active {
+  background-color:blue ;
+  color: white;
+}
+#topnav #a:hover {
+  background-color:blue;
+  color: black;
+}
+.sideMenu{
+	
+	
+	color:black;
+	position:relative;
+	height:70vh;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	background-image:url("login 8.jpg");
+	background-repeat:repeat-x;
+	background-size:content;
+	
+	}
+	.Menu{font-family:cursive;}
+.frmdiv{
+	display:inline-block;
+	margin-left:500px;
+	margin-right:500px;
+	margin-top:30px;
+	margin-bottom:auto;
+	position:relative;
+	height:auto
+	
+	
+}
+
+
+
+.footer{
+	background-color: rgb(130, 181, 226);
+	color:white;
+	position:relative;
+	height:30vh;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	
+	
+}
+ul{
+	list-style-type:none;
+}
+.col1{
+	
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+.col2{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+.col3{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+
+.col4{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+a{
+	text-decoration:none;
+	color:white;
+}

@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	
+
+}
+.topbar{
+	background-color:white;
+	color:black;
+	position:relative;
+	height:5vh;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	
+}
+
+
+#topnav {
+  background-color: rgb(130, 181, 226);
+  overflow: hidden
+  
+}
+#topnav a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+
+font-size:17px}
+#topnav a#active {
+  background-color:blue ;
+  color: white;
+}
+#topnav #a:hover {
+  background-color:blue;
+  color: black;
+}
+.sideMenu{
+	background-color:white;
+	color:black ;
+	position:relative;
+	height:100vh;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	
+	}
+	#payment{
+margin-right:20px;
+    float:right;
+	height:5vh;
+	color:blue;
+	font-size:20px;
+	font-weight:bold;	
+	
+}
+
+.footer{
+    background-color: rgb(130, 181, 226);
+	color:white;
+	position:relative;
+	height:30vh;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:16px;
+	font-family:arial;
+	
+}
+ul{
+	list-style-type:none;
+}
+.col1{
+	
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+.col2{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+.col3{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+
+
+.col4{
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
